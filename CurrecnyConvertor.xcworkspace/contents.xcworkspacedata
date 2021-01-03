@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MainApp/MainApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CurrencyConvertoriOS/CurrencyConvertoriOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CurrencyConvertorFeature/CurrencyConvertorFeature.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OfflineCurrencyConvertor/OfflineCurrencyConvertor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ExchangeRateiOS/ExchangeRateiOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ExchangeRateFeature/ExchangeRateFeature.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ExchangeRateAPI/ExchangeRateAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Networking/Networking.xcodeproj">
+   </FileRef>
+</Workspace>
