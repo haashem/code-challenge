@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9453571C25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9453571B25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework */; };
+		9453571D25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9453571B25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		94D8EA5E25A0E144002F2613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8EA5D25A0E144002F2613 /* AppDelegate.swift */; };
 		94D8EA6025A0E144002F2613 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8EA5F25A0E144002F2613 /* SceneDelegate.swift */; };
 		94D8EA6725A0E145002F2613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D8EA6625A0E145002F2613 /* Assets.xcassets */; };
@@ -30,6 +32,7 @@
 			files = (
 				94D8EA9125A0F87A002F2613 /* ExchangeRateFeature.framework in Embed Frameworks */,
 				94D8EA8E25A0F855002F2613 /* Networking.framework in Embed Frameworks */,
+				9453571D25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework in Embed Frameworks */,
 				94D8EA9425A0F8BF002F2613 /* ExchangeRateAPI.framework in Embed Frameworks */,
 				94D8EA7625A0E312002F2613 /* ExchangeRateiOS.framework in Embed Frameworks */,
 			);
@@ -39,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9453571B25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CurrencyConvertoriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D8EA5A25A0E144002F2613 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D8EA5D25A0E144002F2613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94D8EA5F25A0E144002F2613 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			files = (
 				94D8EA9025A0F87A002F2613 /* ExchangeRateFeature.framework in Frameworks */,
 				94D8EA8D25A0F855002F2613 /* Networking.framework in Frameworks */,
+				9453571C25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework in Frameworks */,
 				94D8EA9325A0F8BF002F2613 /* ExchangeRateAPI.framework in Frameworks */,
 				94D8EA7525A0E312002F2613 /* ExchangeRateiOS.framework in Frameworks */,
 			);
@@ -98,6 +103,7 @@
 		94D8EA7325A0E312002F2613 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9453571B25A1DEEC0048FA20 /* CurrencyConvertoriOS.framework */,
 				94D8EA9225A0F8BF002F2613 /* ExchangeRateAPI.framework */,
 				94D8EA8F25A0F87A002F2613 /* ExchangeRateFeature.framework */,
 				94D8EA8C25A0F855002F2613 /* Networking.framework */,
