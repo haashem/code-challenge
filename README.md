@@ -90,3 +90,19 @@ func iterativeFibonacci(_ number: Int) -> Int {
     return fibonacci
 }
 ```
+
+4. Which architecture would you use for the required task below? Why?
+This Project is developed based on modular design, a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each one contains everything necessary to execute only one aspect of the desired functionality
+
+**Business reasons**
+1. The company requires that parts of the codebase are reused and shared across projects, products, and teams
+2. The company requires multiple products to be unified into a single one.
+
+**Tech reasons**
+1. It helps the teams to work in parallel without defining any bottlenecks and removes dependency
+2. maintaining the code base becomes much easier as each module only contains the necessary code to run specific functionality
+3. Increase development speed and independency and teams satisfaction
+4. Each module can developed with with its own code style and presentation architectures
+5. Enables port functionalities across projects/products and increases resuability.
+
+
